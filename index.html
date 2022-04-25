@@ -38,16 +38,16 @@
                     <span id="menuBtn2" class="hamburger__bottom-bu"></span>
                 </button>
                 <nav id="menu" class="hidden w-full md:w-auto md:hidden lg:block md:ml-auto md:mr-auto text-gray-700 text-md flex-col sm:flex-row flex flex-wrap items-center justify-center sm:w-auto sm:self-center sm:flex-row sm:py-0 sm:pb-0">                                                                   
-                    <a href="#works" class="mr-8 md:inline-block flex hover:text-black">How it works</a>                        
-                    <a href="#testimonies" class="mr-8 md:inline-block flex hover:text-black">Hostels</a>  
-                    <a href="#works" class="mr-8 md:inline-block flex hover:text-black">Report example</a>
+                    <a href="#how-it-works" class="mr-8 md:inline-block flex hover:text-black">How it works</a>                        
+                    <a href="#hostels" class="mr-8 md:inline-block flex hover:text-black">Hostels</a>  
+                    <a href="#report" class="mr-8 md:inline-block flex hover:text-black">Report example</a>
                     <a href="/become" class="mr-8 md:inline-block flex hover:text-black">Become a mystery guest</a>                  
                     <a href=""><button class="button mr-8 md:inline-block flex border px-6 rounded semibold md:mt-0 shadow-sm py-2 hover:text-black">Get Started Now</button></a>                    
                 </nav>
                 <nav id="menu-mb" class="hidden w-full text-md flex-col sm:flex-row flex flex-wrap items-center text-base justify-center sm:w-auto sm:self-center sm:py-0 sm:pb-0 w-full bg-white mt-4 md:p-0 md:bg-transparent p-4 leading-relaxed rounded">                                               
-                    <a href="#testimonies" class="mr-8 font-medium md:inline-block flex">How it works</a>
-                    <a href="#testimonies" class="mr-8 font-medium md:inline-block flex">Hostels</a>
-                    <a href="#testimonies" class="mr-8 font-medium md:inline-block flex">Report example</a>
+                    <a href="#how-it-works" class="mr-8 font-medium md:inline-block flex">How it works</a>
+                    <a href="#hostels" class="mr-8 font-medium md:inline-block flex">Hostels</a>
+                    <a href="#report" class="mr-8 font-medium md:inline-block flex">Report example</a>
                     <a href="/become" class="mr-8 font-medium md:inline-block flex">Become a mystery guest</a>
                     <a href="" class="mr-8 font-medium md:inline-block flex">Get Started</a>                   
                 </nav>
@@ -58,17 +58,18 @@
                 <div class="mx-auto sm:w-full text-center">
                     <h1 class="text-4xl md:text-5xl leading-tight mb-3 bg-clip-text">Improve the service of your hostel</h1>                    
                     <p class="text-xl mb-4">Get a detailed report of your hostel's pros and cons, such as customer service, space, and others.</p>
-                    <a href="https://calendly.com/index96/intromeeting"><button class="button bg-violet-500 px-12 rounded semibold text-lg hover:bg-violet-600 text-white md:mt-0 shadow-sm py-3">Get Started Now</button></a>
+                    <a href="/get-started"><button class="button bg-violet-500 px-12 rounded semibold text-lg hover:bg-violet-600 text-white md:mt-0 shadow-sm py-3">Get Started Now</button></a>
                 </div>                
             </div>                                 
         </section> 
-        <section>                 
+        <section id="how-it-works">                 
             <div class="container mx-auto flex pt-12 px-5 md:pt-18 xl:px-24 md:px-8 md:flex-row flex-col items-center">                 
                 <div class="flex md:flex-row flex-col-reverse md:flex">
                     <div class="w-full md:w-3/4">
                         <h1 class="text-3xl text-violet-500 md:text-4xl mb-4">A mystery guest will report you what's going on</h1>
                         <p class="text-xl mb-4 leading-tight">Travelers from all over the world help our hostels to improve their service, they are the ones in charge of reporting to you which are your points of improvement.</p>                        
-                        <a href="https://calendly.com/index96/intromeeting"><button class="button mr-8 md:inline-block flex border px-6 rounded bold md:mt-0 shadow-sm py-3 hover:text-black">Check our report example</button></a>                    
+                        <a href="#report"><button class="block md:hidden button mr-8 md:inline-block flex border px-6 rounded semibold md:mt-0 shadow-sm py-3 hover:text-black">Check our report example</button></a>                    
+                        <a href="#report"><button class="hidden md:block button mr-8 md:inline-block flex border px-6 rounded semibold md:mt-0 shadow-sm py-3 hover:text-black">Check our report example</button></a>                    
                     </div>                    
                     <div class="w-full mt-4 md:mt-0 md:w-3/4">
                         <img class="md:block hidden md:mb-0 md:mx-auto md:w-3/4 md:float-right" src="img/flags.svg" />                
@@ -113,10 +114,14 @@
                     <div class="w-full md:w-3/4 pb-12 md:pb-6 mx-auto">
                         <h1 class="text-3xl text-white md:text-4xl mb-4 md:text-center">The enough data to make your guests happy</h1>
                         <p class="text-xl mb-4 leading-tight text-white md:text-center">Travelers from all over the world help our hostels to improve their service, they are the ones in charge of reporting to you which are your points of improvement.</p>                        
-                        <a href="https://calendly.com/index96/intromeeting"><button class="block md:hidden button mr-8 bg-white text-violet-500 md:inline-block flex border px-6 rounded bold md:mt-0 shadow-sm py-3 hover:text-violet-600">Check report example</button></a>                    
+
+                        <div class="flex flex-row md:flex-col">
+                            <a href="https://calendly.com/index96/intromeeting"><button class="block md:hidden button mr-4 bg-transparent text-white md:inline-block flex border px-6 rounded semibold md:mt-0 shadow-sm py-3 hover:text-gray-200">Check report example</button></a>                    
+                            <a href="/get-started"><button class="button mx-auto bg-white text-violet-500 flex border px-12 inline-block md:block rounded semibold md:mt-0 shadow-sm py-3 hover:text-violet-600">Get Started Now</button></a>                    
+                        </div>                        
                     </div>                    
                     <div class="hidden md:block w-full md:mt-0 mx-auto">
-                        <embed class="mx-auto" src="http://www.africau.edu/images/default/sample.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">                       
+                        <embed class="mx-auto" src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">                       
                     </div>
                 </div>
             </div>
@@ -136,11 +141,17 @@
                         <h1 class="mb-3">Company</h1>
                         <nav class="list-none mb-10 leading-loose">                            
                             <li>
-                                <a href="/about" class="hover:text-black font-medium">Become a mystery guest</a>
+                                <a href="#how-it-works" class="hover:text-black font-medium">How it works</a>
                             </li>
                             <li>
-                                <a href="/work" class="hover:text-black font-medium">Testimonies</a>
+                                <a href="#hostels" class="hover:text-black font-medium">Hostels</a>
                             </li>
+                            <li>
+                                <a href="#report" class="hover:text-black font-medium">Report example</a>
+                            </li>
+                            <li>
+                                <a href="/become" class="hover:text-black font-medium">Become a mystery guest</a>
+                            </li>                            
                             <!--<li>
                                 <a href="/services" class="text-gray-600 hover:text-gray-800 font-medium">Prices</a>
                             </li>-->                         
