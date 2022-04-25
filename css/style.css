@@ -41,8 +41,13 @@ span, h1 {
 }
 
 .bold {
+  font-family: 'Bold-Font', sans-serif;
+}
+
+.semibold {
   font-family: 'Semibold-Font', sans-serif;
 }
+
 
 .medium {
   font-family: 'Medium-Font', sans-serif !important;
