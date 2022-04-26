@@ -23,7 +23,9 @@
   src: url('../fonts/whitneybold.otf')  format('truetype');
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   width: 100%;
